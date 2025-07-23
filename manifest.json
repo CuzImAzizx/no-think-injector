@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "NoThink Button for Open WebUI",
+  "version": "1.0",
+  "description": "Adds a /no_think button to Open WebUI input.",
+  "permissions": ["scripting"],
+  "host_permissions": ["http://127.0.70.1:8111/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.70.1:8111/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
