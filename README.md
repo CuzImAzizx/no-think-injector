@@ -2,11 +2,11 @@
 
 ![alt text](assets/banner.png)
 
-This is an improvised chrome extension that adds (🧠 No Think) Button for Open WebUI. Designed for Qwen3 models.
+This is an improvised chrome extension that adds (🧠 No Think) button for Open WebUI. Designed for Qwen3 models.
 
 ![alt text](assets/ui-screenshot.png)
 
-This Button when pressed will add `/no_think` message at the top of the input.
+This button when pressed will add `/no_think` message at the top of the input.
 
 ![alt text](assets/ui-screenshot-2.png)
 
@@ -20,6 +20,21 @@ Before (approximate_total: 0h:1m:4s)
 After (approximate_total: 0h:0m:17s)
 ![alt text](assets/no_think_cheese.png)
 
+## Installation
+
+1. **Clone or download the project**
+```bash
+git clone https://github.com/CuzImAzizx/no-think-injector
+```
+
+2. **Load the extension**
+
+Follow [these steps](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) to load the extension
+
+3. **Go to Open WebUI**
+
+If everything went correctly, you will see the "🧠 No Think" button next to code interpreter.
+
 ## Future Work
 
-I have plans to make this extention professional and available on the chrome store.
+I have plans to make this extension professional and available on the chrome store.
